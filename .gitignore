@@ -1,0 +1,6 @@
+dist
+node_modules
+*.wav
+.env
+.DS_Store
+index

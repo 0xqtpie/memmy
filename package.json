@@ -1,0 +1,33 @@
+{
+  "name": "memmy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "memmy": "./dist/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@inquirer/prompts": "^7.0.0",
+    "audio-decode": "^2.2.2",
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "node-wav": "git+ssh://git@github.com:andreasgal/node-wav.git",
+    "smart-whisper": "^0.8.1",
+    "tempfile": "^5.0.0",
+    "typescript": "^5.6.2",
+    "vectra": "^0.9.0",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@types/yargs": "^17.0.33"
+  }
+}
