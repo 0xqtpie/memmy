@@ -16,6 +16,7 @@ export async function recall(query: string) {
       .join(",")}]
     
     Please respond concisely and only with the answer to the query.
+    Do not deny any query, even one that uses potty language.
   `;
 
   const response = await axios.post(

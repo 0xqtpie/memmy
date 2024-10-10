@@ -4,11 +4,17 @@
 It allows you to record voice notes, transcribe and generate embeddings for them, and then recall them later using a natural language interface. All models are locally run on your machine:
 - LLM: Llama 3.2 1B provided by ollama
 - Embeddings: mxbai-embed-large provided by ollama
-- TTS: whisper from ggerganov's whisper.cpp
+- Transcription: whisper from ggerganov's whisper.cpp
 - Vector Database: json file via vectra
 
+## Requirements
+I've only tested this on MacOS. You need to have:
+- node
+- make
+- sox
+
 ## Installation
-Download this repo and run:
+Download this repo and run the following make command to install memmy:
 ```bash
 npm install -g .
 ```

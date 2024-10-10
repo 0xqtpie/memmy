@@ -76,7 +76,6 @@ async function main() {
         );
       }
       await init(true);
-      // console.log("Recall functionality is not yet implemented.");
       await recallPrompt();
     } else if (argv._[0] === "purge") {
       await purge();
